@@ -8,6 +8,7 @@ class Modal {
         this.events();
     }
 
+
     events() {
         // clicking open modal button
         this.openModalButton.click(this.openModal.bind(this));
